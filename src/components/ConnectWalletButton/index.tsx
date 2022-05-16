@@ -76,7 +76,7 @@ const ConnectWalletButton = ({ block, style }: any) => {
         uauth.logout().catch((error) => {
           console.error('profile error:', error);
           setLoading(false);
-          history.push('/')
+          history.push('/');
         });
       } else {
         console.error('cannot logout');
