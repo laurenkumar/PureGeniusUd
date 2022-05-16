@@ -73,16 +73,11 @@ const ConnectWalletButton = ({ block, style }: any) => {
         deactivate();
       } else if (profile.ud) {
         setLoading(true);
-        uauth
-          .logout({
-            beforeRedirect(url: string) {
-              console.debug('start logout: ', url);
-            },
-          })
-          .catch((error: any) => {
-            setLoading(false);
-            console.error('profile error:', error);
-          });
+        uauth.logout().catch((error) => {
+          console.error("profile error:", error);
+          setLoading(false);
+          history.push('/')
+        });
       } else {
         console.error('cannot logout');
       }
