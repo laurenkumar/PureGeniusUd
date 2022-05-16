@@ -7,7 +7,7 @@ const HomePage: React.FC = () => {
   return (
     <HomePageStyle>
       <PageLayout>
-        <Title>Myflix, watch or rent</Title>
+        <Title>PureGenius</Title>
         <HomePageContent />
       </PageLayout>
     </HomePageStyle>

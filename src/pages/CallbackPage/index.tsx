@@ -13,8 +13,8 @@ const CallbackPage: React.FC = () => {
     uauth
       .loginCallback()
       .then(() => {
-        const redirectUrl: string = getRedirectUrl() || '/browse';
-        history.push('browse');
+        const redirectUrl: string = getRedirectUrl() || '/';
+        history.push('/');
       })
       .catch((error) => {
         history.push('/');
