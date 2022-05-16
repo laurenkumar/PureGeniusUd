@@ -321,7 +321,7 @@ const HomePageContent: React.FC = () => {
              </div>
             </div>
             <div className="chat-footer anim" style="--delay: .1s">
-             <input type="text" placeholder="Write your message">
+             <input type="text" placeholder="Write your message" />
             </div>
            </div>
            <div className="chat-vid__container">
