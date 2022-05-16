@@ -12,6 +12,7 @@ import UAuth, { UserInfo } from '@uauth/js';
 import { useRecoilState } from 'recoil';
 import { DEFAULT_PROFILE, profileState } from 'src/state/profile';
 import { ModalStyle } from './style';
+import { useHistory } from 'react-router-dom';
 
 export const injected = new InjectedConnector({
   supportedChainIds: SUPPORTED_CHAINS,
