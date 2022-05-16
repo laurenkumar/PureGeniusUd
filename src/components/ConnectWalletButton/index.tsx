@@ -75,7 +75,9 @@ const ConnectWalletButton = ({ block, style }: any) => {
         deactivate();
       } else if (profile.ud) {
         setLoading(true);
-        uauth.logout().then(() => {
+        uauth
+        .logout()
+        .then(() => {
           history.push('/');
         }).catch((error) => {
           console.error('profile error:', error);
