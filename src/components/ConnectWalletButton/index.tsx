@@ -32,6 +32,7 @@ const ConnectWalletButton = ({ block, style }: any) => {
   const [modalVisible, setModalVisible] = useState(false);
   const [loading, setLoading] = useState(false);
   const [profile, setProfile] = useRecoilState(profileState);
+  const history = useHistory();
 
   useEffect(() => {
     uauth = udlogin();
