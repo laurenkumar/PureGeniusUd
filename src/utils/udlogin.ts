@@ -16,6 +16,6 @@ export default () => {
     redirectUri: `https://pure-genius-ud.vercel.app/callback`,
 
     // This is the url that the auth server will redirect back to after logging out.
-    postLogoutRedirectUri: `https://pure-genius-ud.vercel.app/`,
+    postLogoutRedirectUri: `https://pure-genius-ud.vercel.app/logout`,
   });
 };
