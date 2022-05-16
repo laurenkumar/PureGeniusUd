@@ -14,8 +14,5 @@ export default () => {
 
     scope: 'openid wallet',
     redirectUri: `https://pure-genius-ud.vercel.app/callback`,
-
-    // This is the url that the auth server will redirect back to after logging out.
-    postLogoutRedirectUri: `https://pure-genius-ud.vercel.app/logout`,
   });
 };
