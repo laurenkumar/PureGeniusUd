@@ -11,13 +11,9 @@ const requireEnv = (name: string): string => {
 export default () => {
   return new UAuth({
     clientID: requireEnv('REACT_APP_NOT_CLIENT_ID'),
-    clientSecret: requireEnv('REACT_APP_NOT_CLIENT_SECRET'),
-
-    scope: 'openid email wallet',
-
-    redirectUri: `https://myflix-sandy.vercel.app/callback`,
+    redirectUri: `https://pure-genius-ud.vercel.app/callback`,
 
     // This is the url that the auth server will redirect back to after logging out.
-    postLogoutRedirectUri: `https://myflix-sandy.vercel.app/logout`,
+    postLogoutRedirectUri: `https://pure-genius-ud.vercel.app/logout`,
   });
 };
