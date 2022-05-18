@@ -7,7 +7,7 @@
 - Available here https://pure-genius-ud.vercel.app/
 
 # Video Demo
-- https://vimeo.com/675883094
+- https://vimeo.com/711248256
 
 # Contact
 - Discord ID: dododream21#7208
