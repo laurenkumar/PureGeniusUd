@@ -1,11 +1,11 @@
-import PageLayout from 'src/components/PageLayout';
+ import PageLayout from 'src/components/PageLayout';
 
 const BrowsePage: React.FC = () => {
   return (
     <PageLayout>
       <section className='main-container'>
         <div className='location' id='home'>
-          <h1 id='home'>Popular on Myflix</h1>
+          <h1 id='home'>Popular on PureGenius</h1>
           <div className='box'>
             <a href=''>
               <img
