@@ -140,10 +140,21 @@ const HomePageContent: React.FC = () => {
                 </div>
                 <div className='main-blog__author'>
                   <div className='author-img__wrapper'>
-                    <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round' className='feather feather-check'>
+                    <svg
+                      viewBox='0 0 24 24'
+                      fill='none'
+                      stroke='currentColor'
+                      strokeWidth='3'
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      className='feather feather-check'
+                    >
                       <path d='M20 6L9 17l-5-5' />
                     </svg>
-                    <img className='author-img' src='https://images.unsplash.com/photo-1560941001-d4b52ad00ecc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80' />
+                    <img
+                      className='author-img'
+                      src='https://images.unsplash.com/photo-1560941001-d4b52ad00ecc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80'
+                    />
                   </div>
                   <div className='author-detail'>
                     <div className='author-name'>Thomas Hope</div>
@@ -157,10 +168,21 @@ const HomePageContent: React.FC = () => {
                 <div className='main-blog__author tips'>
                   <div className='main-blog__time'>7 min</div>
                   <div className='author-img__wrapper'>
-                    <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round' className='feather feather-check'>
+                    <svg
+                      viewBox='0 0 24 24'
+                      fill='none'
+                      stroke='currentColor'
+                      strokeWidth='3'
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      className='feather feather-check'
+                    >
                       <path d='M20 6L9 17l-5-5' />
                     </svg>
-                    <img className='author-img' src='https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fG1lbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60' />
+                    <img
+                      className='author-img'
+                      src='https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fG1lbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
+                    />
                   </div>
                   <div className='author-detail'>
                     <div className='author-name'>Tony Andrew</div>
@@ -178,10 +200,21 @@ const HomePageContent: React.FC = () => {
                     <source src='https://player.vimeo.com/external/436572488.sd.mp4?s=eae5fb490e214deb9ff532dd98d101efe94e7a8b&profile_id=139&oauth2_token_id=57447761' type='video/mp4' />
                   </video>
                   <div className='author-img__wrapper video-author'>
-                    <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round' className='feather feather-check'>
+                    <svg
+                      viewBox='0 0 24 24'
+                      fill='none'
+                      stroke='currentColor'
+                      strokeWidth='3'
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      className='feather feather-check'
+                    >
                       <path d='M20 6L9 17l-5-5' />
                     </svg>
-                    <img className='author-img' src='https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500' />
+                    <img
+                      className='author-img'
+                      src='https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'
+                    />
                   </div>
                 </div>
                 <div className='video-by'>Andy William</div>
@@ -195,10 +228,21 @@ const HomePageContent: React.FC = () => {
                     <source src='https://player.vimeo.com/external/449972745.sd.mp4?s=9943177fe8a6147b7bc4598259401f06ec57878a&profile_id=139&oauth2_token_id=57447761' type='video/mp4' />
                   </video>
                   <div className='author-img__wrapper video-author'>
-                    <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round' className='feather feather-check'>
+                    <svg
+                      viewBox='0 0 24 24'
+                      fill='none'
+                      stroke='currentColor'
+                      strokeWidth='3'
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      className='feather feather-check'
+                    >
                       <path d='M20 6L9 17l-5-5' />
                     </svg>
-                    <img className='author-img' src='https://images.pexels.com/photos/3370021/pexels-photo-3370021.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500' />
+                    <img
+                      className='author-img'
+                      src='https://images.pexels.com/photos/3370021/pexels-photo-3370021.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'
+                    />
                   </div>
                 </div>
                 <div className='video-by offline'>Gerard Bind</div>
@@ -212,10 +256,21 @@ const HomePageContent: React.FC = () => {
                     <source src='https://player.vimeo.com/external/436553499.sd.mp4?s=0e44527f269278743db448761e35c5e39cfaa52c&profile_id=139&oauth2_token_id=57447761' type='video/mp4' />
                   </video>
                   <div className='author-img__wrapper video-author'>
-                    <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round' className='feather feather-check'>
+                    <svg
+                      viewBox='0 0 24 24'
+                      fill='none'
+                      stroke='currentColor'
+                      strokeWidth='3'
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      className='feather feather-check'
+                    >
                       <path d='M20 6L9 17l-5-5' />
                     </svg>
-                    <img className='author-img' src='https://images.pexels.com/photos/1870163/pexels-photo-1870163.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500' />
+                    <img
+                      className='author-img'
+                      src='https://images.pexels.com/photos/1870163/pexels-photo-1870163.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'
+                    />
                   </div>
                 </div>
                 <div className='video-by offline'>John Wise</div>
@@ -229,10 +284,21 @@ const HomePageContent: React.FC = () => {
                     <source src='https://player.vimeo.com/external/361861493.sd.mp4?s=19d8275ca755d653042a87ef28b2f0b2eabf57d0&profile_id=139&oauth2_token_id=57447761' type='video/mp4' />
                   </video>
                   <div className='author-img__wrapper video-author'>
-                    <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round' className='feather feather-check'>
+                    <svg
+                      viewBox='0 0 24 24'
+                      fill='none'
+                      stroke='currentColor'
+                      strokeWidth='3'
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      className='feather feather-check'
+                    >
                       <path d='M20 6L9 17l-5-5' />
                     </svg>
-                    <img className='author-img' src='https://images.pexels.com/photos/2889942/pexels-photo-2889942.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500' />
+                    <img
+                      className='author-img'
+                      src='https://images.pexels.com/photos/2889942/pexels-photo-2889942.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'
+                    />
                   </div>
                 </div>
                 <div className='video-by'>Budi Hakim</div>
@@ -250,10 +316,21 @@ const HomePageContent: React.FC = () => {
                   <div className='video-content'>
                     <div className='video-p-wrapper anim' style='--delay: .1s'>
                       <div className='author-img__wrapper video-author video-p'>
-                        <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round' className='feather feather-check'>
+                        <svg
+                          viewBox='0 0 24 24'
+                          fill='none'
+                          stroke='currentColor'
+                          strokeWidth='3'
+                          strokeLinecap='round'
+                          strokeLinejoin='round'
+                          className='feather feather-check'
+                        >
                           <path d='M20 6L9 17l-5-5' />
                         </svg>
-                        <img className='author-img' src='https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500' />
+                        <img
+                          className='author-img'
+                          src='https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'
+                        />
                       </div>
                       <div className='video-p-detail'>
                         <div className='video-p-name'>Andy William</div>
@@ -261,13 +338,21 @@ const HomePageContent: React.FC = () => {
                       </div>
                       <div className='button-wrapper'>
                         <button className='like'>
-                          <svg viewBox='0 0 24 24' fill='currentColor' xmlns='http://www.w3.org/2000/svg'>
+                          <svg
+                            viewBox='0 0 24 24'
+                            fill='currentColor' 
+                            xmlns='http://www.w3.org/2000/svg'
+                          >
                             <path d='M21.435 2.582a1.933 1.933 0 00-1.93-.503L3.408 6.759a1.92 1.92 0 00-1.384 1.522c-.142.75.355 1.704 1.003 2.102l5.033 3.094a1.304 1.304 0 001.61-.194l5.763-5.799a.734.734 0 011.06 0c.29.292.29.765 0 1.067l-5.773 5.8c-.428.43-.508 1.1-.193 1.62l3.075 5.083c.36.604.98.946 1.66.946.08 0 .17 0 .251-.01.78-.1 1.4-.634 1.63-1.39l4.773-16.075c.21-.685.02-1.43-.48-1.943z' />
                           </svg>
                           Share
                         </button>
                         <button className='like red'>
-                          <svg viewBox='0 0 24 24' fill='currentColor' xmlns='http://www.w3.org/2000/svg'>
+                          <svg
+                            viewBox='0 0 24 24'
+                            fill='currentColor'
+                            xmlns='http://www.w3.org/2000/svg'
+                          >
                             <path
                               fill-rule='evenodd'
                               clipRule='evenodd'
@@ -288,7 +373,11 @@ const HomePageContent: React.FC = () => {
                   <div className='chat-header anim'>
                     Live Chat
                     <span>
-                      <svg viewBox='0 0 24 24' fill='currentColor' xmlns='http://www.w3.org/2000/svg'>
+                      <svg
+                        viewBox='0 0 24 24'
+                        fill='currentColor'
+                        xmlns='http://www.w3.org/2000/svg'
+                      >
                         <path
                           fill-rule='evenodd'
                           clipRule='evenodd'
@@ -301,10 +390,21 @@ const HomePageContent: React.FC = () => {
                   <div className='message-container'>
                     <div className='message anim' style='--delay: .1s'>
                       <div className='author-img__wrapper video-author video-p'>
-                        <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round' className='feather feather-check'>
+                        <svg
+                          viewBox='0 0 24 24'
+                          fill='none'
+                          stroke='currentColor'
+                          strokeWidth='3'
+                          strokeLinecap='round'
+                          strokeLinejoin='round'
+                          className='feather feather-check'
+                        >
                           <path d='M20 6L9 17l-5-5' />
                         </svg>
-                        <img className='author-img' src='https://images.unsplash.com/photo-1560941001-d4b52ad00ecc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80' />
+                        <img
+                          className='author-img'
+                          src='https://images.unsplash.com/photo-1560941001-d4b52ad00ecc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80'
+                        />
                       </div>
                       <div className='msg-wrapper'>
                         <div className='msg__name video-p-name'> Wijaya Adabi</div>
@@ -313,10 +413,21 @@ const HomePageContent: React.FC = () => {
                     </div>
                     <div className='message anim' style='--delay: .2s'>
                       <div className='author-img__wrapper video-author video-p'>
-                        <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round' className='feather feather-check'>
+                        <svg
+                          viewBox='0 0 24 24'
+                          fill='none'
+                          stroke='currentColor'
+                          strokeWidth='3'
+                          strokeLinecap='round'
+                          strokeLinejoin='round'
+                          className='feather feather-check'
+                        >
                           <path d='M20 6L9 17l-5-5' />
                         </svg>
-                        <img className='author-img' src='https://images.pexels.com/photos/2889942/pexels-photo-2889942.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500' />
+                        <img
+                          className='author-img'
+                          src='https://images.pexels.com/photos/2889942/pexels-photo-2889942.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'
+                        />
                       </div>
                       <div className='msg-wrapper'>
                         <div className='msg__name video-p-name offline'> Johny Wise</div>
@@ -325,10 +436,21 @@ const HomePageContent: React.FC = () => {
                     </div>
                     <div className='message anim' style='--delay: .3s'>
                       <div className='author-img__wrapper video-author video-p'>
-                        <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round' className='feather feather-check'>
+                        <svg
+                          viewBox='0 0 24 24'
+                          fill='none'
+                          stroke='currentColor'
+                          strokeWidth='3'
+                          strokeLinecap='round'
+                          strokeLinejoin='round'
+                          className='feather feather-check'
+                        >
                           <path d='M20 6L9 17l-5-5' />
                         </svg>
-                        <img className='author-img' src='https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fG1lbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60' />
+                        <img
+                          className='author-img'
+                          src='https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fG1lbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
+                        />
                       </div>
                       <div className='msg-wrapper'>
                         <div className='msg__name video-p-name offline'> Budi Hakim</div>
@@ -337,10 +459,21 @@ const HomePageContent: React.FC = () => {
                     </div>
                     <div className='message anim' style='--delay: .4s'>
                       <div className='author-img__wrapper video-author video-p'>
-                        <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round' className='feather feather-check'>
+                        <svg
+                          viewBox='0 0 24 24'
+                          fill='none'
+                          stroke='currentColor'
+                          strokeWidth='3'
+                          strokeLinecap='round'
+                          strokeLinejoin='round'
+                          className='feather feather-check'
+                        >
                           <path d='M20 6L9 17l-5-5' />
                         </svg>
-                        <img className='author-img' src='https://images.pexels.com/photos/1870163/pexels-photo-1870163.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500' />
+                        <img
+                          className='author-img'
+                          src='https://images.pexels.com/photos/1870163/pexels-photo-1870163.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'
+                        />
                       </div>
                       <div className='msg-wrapper'>
                         <div className='msg__name video-p-name'> Thomas Hope</div>
@@ -349,10 +482,21 @@ const HomePageContent: React.FC = () => {
                     </div>
                     <div className='message anim' style='--delay: .5s'>
                       <div className='author-img__wrapper video-author video-p'>
-                        <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round' className='feather feather-check'>
+                        <svg
+                          viewBox='0 0 24 24'
+                          fill='none'
+                          stroke='currentColor'
+                          strokeWidth='3'
+                          strokeLinecap='round'
+                          strokeLinejoin='round'
+                          className='feather feather-check'
+                        >
                           <path d='M20 6L9 17l-5-5' />
                         </svg>
-                        <img className='author-img' src='https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500' />
+                        <img
+                          className='author-img'
+                          src='https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'
+                        />
                       </div>
                       <div className='msg-wrapper'>
                         <div className='msg__name video-p-name'> Gerard Will</div>
@@ -361,10 +505,21 @@ const HomePageContent: React.FC = () => {
                     </div>
                     <div className='message anim' style='--delay: .6s'>
                       <div className='author-img__wrapper video-author video-p'>
-                        <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round' className='feather feather-check'>
+                        <svg
+                          viewBox='0 0 24 24'
+                          fill='none'
+                          stroke='currentColor'
+                          strokeWidth='3'
+                          strokeLinecap='round'
+                          strokeLinejoin='round'
+                          className='feather feather-check'
+                        >
                           <path d='M20 6L9 17l-5-5' />
                         </svg>
-                        <img className='author-img' src='https://images.pexels.com/photos/2889942/pexels-photo-2889942.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500' />
+                        <img
+                          className='author-img'
+                          src='https://images.pexels.com/photos/2889942/pexels-photo-2889942.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'
+                        />
                       </div>
                       <div className='msg-wrapper'>
                         <div className='msg__name video-p-name offline'>Johny Wise</div>
