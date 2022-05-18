@@ -647,11 +647,19 @@ const HomePageContent: React.FC = () => {
                   </div>
                   <div className='chat-vid anim' style='--delay: .5s'>
                     <div className='chat-vid__wrapper'>
-                      <img className='chat-vid__img' src='https://iamaround.it/wp-content/uploads/2015/02/pexels-photo-4663818.jpeg' />
+                      <img
+                        className='chat-vid__img'
+                        src='https://iamaround.it/wp-content/uploads/2015/02/pexels-photo-4663818.jpeg'
+                      />
                       <div className='chat-vid__content'>
-                        <div className='chat-vid__name'>Prepare for your first skateboard jump</div>
+                        <div className='chat-vid__name'>
+                          Prepare for your first skateboard jump
+                        </div>
                         <div className='chat-vid__by'>Jordan Wise</div>
-                        <div className='chat-vid__info'>125.908 views <span className='seperate'></span>2 days ago</div>
+                        <div className='chat-vid__info'>
+                          125.908 views <span className='seperate'></span>2 days
+                          ago
+                        </div>
                       </div>
                     </div>
                   </div>
