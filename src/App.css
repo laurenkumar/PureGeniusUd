@@ -11,6 +11,7 @@ html {
 
 .ant-layout {
   margin-top: 25px;
+  background-color: transparent !important;
 }
 
 .ant-page-header.ant-page-header-ghost {
