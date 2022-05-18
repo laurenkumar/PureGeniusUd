@@ -17,7 +17,7 @@ const PageLayout: React.FC<{ showConnectWallet?: boolean }> = ({
         <PageHeader
           title={
             <span className='app-name' onClick={() => history.push('/')}>
-              Myflix
+              PureGenius
             </span>
           }
           subTitle='Your streaming service'
@@ -25,7 +25,6 @@ const PageLayout: React.FC<{ showConnectWallet?: boolean }> = ({
             <Button type='link' key='1' onClick={() => history.push('/')}>
               Home
             </Button>,
-            <HeaderSearch />,
             <ConnectWalletButton
               key='4'
               style={{ visibility: showConnectWallet ? 'visible' : 'hidden' }}
