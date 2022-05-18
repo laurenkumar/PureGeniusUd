@@ -130,11 +130,11 @@ const HomePageContent: React.FC = () => {
             </div>
           </div>
           <div className='main-container'>
-            <div className='main-header anim' style='--delay: 0s'>
+            <div className='main-header anim'>
               Discover
             </div>
             <div className='main-blogs'>
-              <div className='main-blog anim' style='--delay: .1s'>
+              <div className='main-blog anim'>
                 <div className='main-blog__title'>
                   How to do Basic Jumping and how to landing safely
                 </div>
@@ -165,7 +165,7 @@ const HomePageContent: React.FC = () => {
                 </div>
                 <div className='main-blog__time'>7 min</div>
               </div>
-              <div className='main-blog anim' style='--delay: .2s'>
+              <div className='main-blog anim'>
                 <div className='main-blog__title'>
                   Skateboard Tips You need to know
                 </div>
@@ -197,11 +197,11 @@ const HomePageContent: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className='small-header anim' style='--delay: .3s'>
+            <div className='small-header anim'>
               Most Watched
             </div>
             <div className='videos'>
-              <div className='video anim' style='--delay: .4s'>
+              <div className='video anim'>
                 <div className='video-time'>8 min</div>
                 <div className='video-wrapper'>
                   <video muted=''>
@@ -237,7 +237,7 @@ const HomePageContent: React.FC = () => {
                   week ago
                 </div>
               </div>
-              <div className='video anim' style='--delay: .5s'>
+              <div className='video anim'>
                 <div className='video-time'>5 min</div>
                 <div className='video-wrapper'>
                   <video muted=''>
@@ -273,7 +273,7 @@ const HomePageContent: React.FC = () => {
                   week ago
                 </div>
               </div>
-              <div className='video anim' style='--delay: .6s'>
+              <div className='video anim'>
                 <div className='video-time'>7 min</div>
                 <div className='video-wrapper'>
                   <video muted=''>
@@ -309,7 +309,7 @@ const HomePageContent: React.FC = () => {
                   week ago
                 </div>
               </div>
-              <div className='video anim' style='--delay: .7s'>
+              <div className='video anim'>
                 <div className='video-time'>6 min</div>
                 <div className='video-wrapper'>
                   <video muted=''>
@@ -368,7 +368,7 @@ const HomePageContent: React.FC = () => {
                 </video>
                 <div className='video-detail'>
                   <div className='video-content'>
-                    <div className='video-p-wrapper anim' style='--delay: .1s'>
+                    <div className='video-p-wrapper anim'>
                       <div className='author-img__wrapper video-author video-p'>
                         <svg
                           viewBox='0 0 24 24'
@@ -417,17 +417,17 @@ const HomePageContent: React.FC = () => {
                         </button>
                       </div>
                     </div>
-                    <div className='video-p-title anim' style='--delay: .2s'>
+                    <div className='video-p-title anim'>
                       Basic how to ride your Skateboard
                     </div>
-                    <div className='video-p-subtitle anim' style='--delay: .3s'>
+                    <div className='video-p-subtitle anim'>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Repellendus illum tempora consequuntur. Lorem ipsum dolor
                       sit amet consectetur adipisicing elit. Debitis earum velit
                       accusantium maiores qui sit quas, laborum voluptatibus
                       vero quidem tempore facilis voluptate tempora deserunt!
                     </div>
-                    <div className='video-p-subtitle anim' style='--delay: .4s'>
+                    <div className='video-p-subtitle anim'>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Temporibus laborum qui dolorum fugiat eius accusantium
                       repellendus illum tempora consequuntur. Lorem ipsum dolor,
@@ -456,7 +456,7 @@ const HomePageContent: React.FC = () => {
                     </span>
                   </div>
                   <div className='message-container'>
-                    <div className='message anim' style='--delay: .1s'>
+                    <div className='message anim'>
                       <div className='author-img__wrapper video-author video-p'>
                         <svg
                           viewBox='0 0 24 24'
@@ -483,7 +483,7 @@ const HomePageContent: React.FC = () => {
                         </div>
                       </div>
                     </div>
-                    <div className='message anim' style='--delay: .2s'>
+                    <div className='message anim'>
                       <div className='author-img__wrapper video-author video-p'>
                         <svg
                           viewBox='0 0 24 24'
@@ -510,7 +510,7 @@ const HomePageContent: React.FC = () => {
                         </div>
                       </div>
                     </div>
-                    <div className='message anim' style='--delay: .3s'>
+                    <div className='message anim'>
                       <div className='author-img__wrapper video-author video-p'>
                         <svg
                           viewBox='0 0 24 24'
@@ -537,7 +537,7 @@ const HomePageContent: React.FC = () => {
                         </div>
                       </div>
                     </div>
-                    <div className='message anim' style='--delay: .4s'>
+                    <div className='message anim'>
                       <div className='author-img__wrapper video-author video-p'>
                         <svg
                           viewBox='0 0 24 24'
@@ -564,7 +564,7 @@ const HomePageContent: React.FC = () => {
                         </div>
                       </div>
                     </div>
-                    <div className='message anim' style='--delay: .5s'>
+                    <div className='message anim'>
                       <div className='author-img__wrapper video-author video-p'>
                         <svg
                           viewBox='0 0 24 24'
@@ -591,7 +591,7 @@ const HomePageContent: React.FC = () => {
                         </div>
                       </div>
                     </div>
-                    <div className='message anim' style='--delay: .6s'>
+                    <div className='message anim'>
                       <div className='author-img__wrapper video-author video-p'>
                         <svg
                           viewBox='0 0 24 24'
@@ -619,15 +619,15 @@ const HomePageContent: React.FC = () => {
                       </div>
                     </div>
                   </div>
-                  <div className='chat-footer anim' style='--delay: .1s'>
+                  <div className='chat-footer anim'>
                     <input type='text' placeholder='Write your message' />
                   </div>
                 </div>
                 <div className='chat-vid__container'>
-                  <div className='chat-vid__title anim' style='--delay: .3s'>
+                  <div className='chat-vid__title anim'>
                     Related Videos
                   </div>
-                  <div className='chat-vid anim' style='--delay: .4s'>
+                  <div className='chat-vid anim'>
                     <div className='chat-vid__wrapper'>
                       <img
                         className='chat-vid__img'
@@ -645,7 +645,7 @@ const HomePageContent: React.FC = () => {
                       </div>
                     </div>
                   </div>
-                  <div className='chat-vid anim' style='--delay: .5s'>
+                  <div className='chat-vid anim'>
                     <div className='chat-vid__wrapper'>
                       <img
                         className='chat-vid__img'
@@ -663,7 +663,7 @@ const HomePageContent: React.FC = () => {
                       </div>
                     </div>
                   </div>
-                  <div className='chat-vid__button anim' style='--delay: .6s'>
+                  <div className='chat-vid__button anim'>
                     See All related videos (32)
                   </div>
                 </div>
