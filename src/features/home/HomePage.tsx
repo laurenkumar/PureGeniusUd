@@ -130,9 +130,7 @@ const HomePageContent: React.FC = () => {
             </div>
           </div>
           <div className='main-container'>
-            <div className='main-header anim'>
-              Discover
-            </div>
+            <div className='main-header anim'>Discover</div>
             <div className='main-blogs'>
               <div className='main-blog anim'>
                 <div className='main-blog__title'>
@@ -197,9 +195,7 @@ const HomePageContent: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className='small-header anim'>
-              Most Watched
-            </div>
+            <div className='small-header anim'>Most Watched</div>
             <div className='videos'>
               <div className='video anim'>
                 <div className='video-time'>8 min</div>
@@ -624,9 +620,7 @@ const HomePageContent: React.FC = () => {
                   </div>
                 </div>
                 <div className='chat-vid__container'>
-                  <div className='chat-vid__title anim'>
-                    Related Videos
-                  </div>
+                  <div className='chat-vid__title anim'>Related Videos</div>
                   <div className='chat-vid anim'>
                     <div className='chat-vid__wrapper'>
                       <img
