@@ -234,7 +234,7 @@ const HomePageContent: React.FC = () => {
                 </div>
                 <div className='video-view'>
                   54K views<span className='seperate video-seperate'></span>1
-                   week ago
+                  week ago
                 </div>
               </div>
               <div className='video anim' style='--delay: .5s'>
@@ -270,7 +270,7 @@ const HomePageContent: React.FC = () => {
                 </div>
                 <div className='video-view'>
                   42K views<span className='seperate video-seperate'></span>1
-                   week ago
+                  week ago
                 </div>
               </div>
               <div className='video anim' style='--delay: .6s'>
@@ -306,7 +306,7 @@ const HomePageContent: React.FC = () => {
                 </div>
                 <div className='video-view'>
                   64K views<span className='seperate video-seperate'></span>2
-                   week ago
+                  week ago
                 </div>
               </div>
               <div className='video anim' style='--delay: .7s'>
@@ -342,7 +342,7 @@ const HomePageContent: React.FC = () => {
                 </div>
                 <div className='video-view'>
                   50K views<span className='seperate video-seperate'></span>1
-                   week ago
+                  week ago
                 </div>
               </div>
             </div>
@@ -423,8 +423,8 @@ const HomePageContent: React.FC = () => {
                     <div className='video-p-subtitle anim' style='--delay: .3s'>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Repellendus illum tempora consequuntur. Lorem ipsum dolor
-                      sit amet consectetur adipisicing elit. Debitis earum velit 
-                      accusantium maiores qui sit quas, laborum voluptatibus 
+                      sit amet consectetur adipisicing elit. Debitis earum velit
+                      accusantium maiores qui sit quas, laborum voluptatibus
                       vero quidem tempore facilis voluptate tempora deserunt!
                     </div>
                     <div className='video-p-subtitle anim' style='--delay: .4s'>
@@ -624,14 +624,24 @@ const HomePageContent: React.FC = () => {
                   </div>
                 </div>
                 <div className='chat-vid__container'>
-                  <div className='chat-vid__title anim' style='--delay: .3s'>Related Videos</div>
+                  <div className='chat-vid__title anim' style='--delay: .3s'>
+                    Related Videos
+                  </div>
                   <div className='chat-vid anim' style='--delay: .4s'>
                     <div className='chat-vid__wrapper'>
-                      <img className='chat-vid__img' src='https://cdn.nohat.cc/thumb/f/720/3b55eddcfffa4e87897d.jpg' />
+                      <img
+                        className='chat-vid__img'
+                        src='https://cdn.nohat.cc/thumb/f/720/3b55eddcfffa4e87897d.jpg'
+                      />
                       <div className='chat-vid__content'>
-                        <div className='chat-vid__name'>Prepare for your first skateboard jump</div>
+                        <div className='chat-vid__name'>
+                          Prepare for your first skateboard jump
+                        </div>
                         <div className='chat-vid__by'>Jordan Wise</div>
-                        <div className='chat-vid__info'>125.908 views <span className='seperate'></span>2 days ago</div>
+                        <div className='chat-vid__info'>
+                          125.908 views <span className='seperate'></span>2 days
+                          ago
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -645,7 +655,9 @@ const HomePageContent: React.FC = () => {
                       </div>
                     </div>
                   </div>
-                  <div className='chat-vid__button anim' style='--delay: .6s'>See All related videos (32)</div>
+                  <div className='chat-vid__button anim' style='--delay: .6s'>
+                    See All related videos (32)
+                  </div>
                 </div>
               </div>
             </div>
