@@ -1,10 +1,10 @@
 # Integrating “Login With Unstoppable” As A Dapp Login Option
-# Myflix
+# PureGenius
 # Project name
-- Myflix
+- PureGenius
   
 # DEMO
-- Available here https://myflix-sandy.vercel.app/
+- Available here https://pure-genius-ud.vercel.app/
 
 # Video Demo
 - https://vimeo.com/675883094
