@@ -9,6 +9,15 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
+.ant-layout {
+  margin-top: 25px;
+}
+
+.ant-page-header.ant-page-header-ghost {
+  background: transparent !important;
+  color: white;
+}
+
 img {
   max-width: 100%;
 }

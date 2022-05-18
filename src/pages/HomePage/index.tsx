@@ -7,7 +7,6 @@ const HomePage: React.FC = () => {
   return (
     <HomePageStyle>
       <PageLayout>
-        <Title>PureGenius</Title>
         <HomePageContent />
       </PageLayout>
     </HomePageStyle>
