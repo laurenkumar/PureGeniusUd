@@ -9,6 +9,17 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
+.ant-modal-body button {
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%;
+  margin: auto;
+}
+
+.ant-modal-body button img {
+  width: 25px;
+}
+
 .ant-page-header-heading-title {
   color: #fff !important;
 }
