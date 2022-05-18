@@ -16,7 +16,7 @@ html {
 
 .ant-page-header.ant-page-header-ghost {
   background: transparent !important;
-  color: white;
+  color: white !important;
 }
 
 img {
