@@ -1,4 +1,4 @@
- import PageLayout from 'src/components/PageLayout';
+import PageLayout from 'src/components/PageLayout';
 
 const BrowsePage: React.FC = () => {
   return (
